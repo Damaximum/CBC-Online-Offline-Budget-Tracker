@@ -21,7 +21,7 @@ They can also use this app offline, and any changes will be saved locally then m
 ## Usage
 
 ​
-In order to use this application, visit the [deployed application]()
+In order to use this application, visit the [deployed application](https://cbc-budget-tracker.herokuapp.com/)
 ​
 
 ## License
