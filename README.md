@@ -15,6 +15,7 @@ They can also use this app offline, and any changes will be saved locally then m
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
 - [Usage](#usage)
+- [Screenshot](#screenshot)
 - [License](#license)
 - [Questions](#questions)
 
@@ -23,6 +24,11 @@ They can also use this app offline, and any changes will be saved locally then m
 ​
 In order to use this application, visit the [deployed application]()
 ​
+
+## Screenshot
+
+Example of the Budget Tracker in use:
+![Alt text](./screenshots/BudgetExample.png?raw=true "Example Budget")
 
 ## License
 
