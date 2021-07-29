@@ -55,7 +55,7 @@ self.addEventListener("fetch", (event) => {
       caches.open(RUNTIME_CACHE).then((cache) => {
         return fetch(event.request)
           .then((response) => {
-            cache.put(event.request, response.clone());
+            cache.put(event.request.url, response.clone());
             return response;
           })
           .catch(() => caches.match(event.request));

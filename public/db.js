@@ -1,5 +1,5 @@
 let db;
-const request = indexedDB.open("budgetTracker", 1);
+const request = window.indexedDB.open("budgetTracker", 1);
 
 request.onupgradeneeded = function (event) {
   const db = event.target.result;
@@ -33,6 +33,7 @@ function checkDatabase() {
   const getAll = store.getAll();
 
   getAll.onsuccess = function () {
+    console.log(getAll.result);
     if (getAll.result.length > 0) {
       fetch("/api/transaction/bulk", {
         method: "POST",
